@@ -10,4 +10,5 @@
 
 @interface GitAlumno : NSObject
 
+@property (nonatomic, assign) BOOL esRegistered;
 @end
