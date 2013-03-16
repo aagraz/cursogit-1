@@ -21,6 +21,7 @@
 		AC73528016F4774100900D7D /* GitViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73527E16F4774100900D7D /* GitViewController_iPad.xib */; };
 		AC73528716F47B9D00900D7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC73528616F47B9D00900D7D /* .gitignore */; };
 		AC73528B16F4867100900D7D /* GitAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73528A16F4867100900D7D /* GitAlumno.m */; };
+		AC73528E16F48AF300900D7D /* GitEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73528D16F48AF300900D7D /* GitEvento.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		AC73528616F47B9D00900D7D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 		AC73528916F4867100900D7D /* GitAlumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitAlumno.h; sourceTree = "<group>"; };
 		AC73528A16F4867100900D7D /* GitAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitAlumno.m; sourceTree = "<group>"; };
+		AC73528C16F48AF300900D7D /* GitEvento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitEvento.h; sourceTree = "<group>"; };
+		AC73528D16F48AF300900D7D /* GitEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitEvento.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 			children = (
 				AC73528916F4867100900D7D /* GitAlumno.h */,
 				AC73528A16F4867100900D7D /* GitAlumno.m */,
+				AC73528C16F48AF300900D7D /* GitEvento.h */,
+				AC73528D16F48AF300900D7D /* GitEvento.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -199,6 +204,7 @@
 				AC73527116F4774100900D7D /* GitAppDelegate.m in Sources */,
 				AC73527A16F4774100900D7D /* GitViewController.m in Sources */,
 				AC73528B16F4867100900D7D /* GitAlumno.m in Sources */,
+				AC73528E16F48AF300900D7D /* GitEvento.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
