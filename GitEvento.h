@@ -10,4 +10,6 @@
 
 @interface GitEvento : NSObject
 
+@property (nonatomic, strong) NSDate *fecha;
+
 @end
