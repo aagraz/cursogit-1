@@ -20,6 +20,7 @@
 		AC73527D16F4774100900D7D /* GitViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73527B16F4774100900D7D /* GitViewController_iPhone.xib */; };
 		AC73528016F4774100900D7D /* GitViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73527E16F4774100900D7D /* GitViewController_iPad.xib */; };
 		AC73528716F47B9D00900D7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC73528616F47B9D00900D7D /* .gitignore */; };
+		AC73528B16F4867100900D7D /* GitAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73528A16F4867100900D7D /* GitAlumno.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		AC73527C16F4774100900D7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GitViewController_iPhone.xib; sourceTree = "<group>"; };
 		AC73527F16F4774100900D7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GitViewController_iPad.xib; sourceTree = "<group>"; };
 		AC73528616F47B9D00900D7D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+		AC73528916F4867100900D7D /* GitAlumno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitAlumno.h; sourceTree = "<group>"; };
+		AC73528A16F4867100900D7D /* GitAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitAlumno.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		AC73525416F4774100900D7D = {
 			isa = PBXGroup;
 			children = (
+				AC73528816F4865500900D7D /* Model */,
 				AC73526616F4774100900D7D /* cursogit */,
 				AC73525F16F4774100900D7D /* Frameworks */,
 				AC73525E16F4774100900D7D /* Products */,
@@ -111,6 +115,15 @@
 				AC73527616F4774100900D7D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC73528816F4865500900D7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC73528916F4867100900D7D /* GitAlumno.h */,
+				AC73528A16F4867100900D7D /* GitAlumno.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +198,7 @@
 				AC73526D16F4774100900D7D /* main.m in Sources */,
 				AC73527116F4774100900D7D /* GitAppDelegate.m in Sources */,
 				AC73527A16F4774100900D7D /* GitViewController.m in Sources */,
+				AC73528B16F4867100900D7D /* GitAlumno.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
