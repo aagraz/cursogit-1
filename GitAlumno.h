@@ -16,12 +16,6 @@
 @property (nonatomic, strong) NSString *direccion;
 @property (nonatomic, assign) BOOL esRegistered;
 
-- (NSArray *)eventos;
-
-
-
-
-
-
+- (NSSet *)eventos;
 
 @end
