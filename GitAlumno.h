@@ -15,4 +15,7 @@
 @property (nonatomic, strong) NSNumber *telefono;
 @property (nonatomic, strong) NSString *direccion;
 @property (nonatomic, assign) BOOL esRegistered;
+
+- (NSArray *)eventos;
+
 @end
