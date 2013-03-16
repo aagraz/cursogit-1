@@ -19,6 +19,7 @@
 		AC73527A16F4774100900D7D /* GitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73527916F4774100900D7D /* GitViewController.m */; };
 		AC73527D16F4774100900D7D /* GitViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73527B16F4774100900D7D /* GitViewController_iPhone.xib */; };
 		AC73528016F4774100900D7D /* GitViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73527E16F4774100900D7D /* GitViewController_iPad.xib */; };
+		AC73528716F47B9D00900D7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC73528616F47B9D00900D7D /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		AC73527916F4774100900D7D /* GitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitViewController.m; sourceTree = "<group>"; };
 		AC73527C16F4774100900D7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GitViewController_iPhone.xib; sourceTree = "<group>"; };
 		AC73527F16F4774100900D7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GitViewController_iPad.xib; sourceTree = "<group>"; };
+		AC73528616F47B9D00900D7D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		AC73526716F4774100900D7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AC73528616F47B9D00900D7D /* .gitignore */,
 				AC73526816F4774100900D7D /* cursogit-Info.plist */,
 				AC73526916F4774100900D7D /* InfoPlist.strings */,
 				AC73526C16F4774100900D7D /* main.m */,
@@ -168,6 +171,7 @@
 				AC73527716F4774100900D7D /* Default-568h@2x.png in Resources */,
 				AC73527D16F4774100900D7D /* GitViewController_iPhone.xib in Resources */,
 				AC73528016F4774100900D7D /* GitViewController_iPad.xib in Resources */,
+				AC73528716F47B9D00900D7D /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
