@@ -22,6 +22,8 @@
 		AC73528716F47B9D00900D7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = AC73528616F47B9D00900D7D /* .gitignore */; };
 		AC73528B16F4867100900D7D /* GitAlumno.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73528A16F4867100900D7D /* GitAlumno.m */; };
 		AC73528E16F48AF300900D7D /* GitEvento.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73528D16F48AF300900D7D /* GitEvento.m */; };
+		AC73529316F4B9C600900D7D /* GitEventoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC73529116F4B9C600900D7D /* GitEventoViewController.m */; };
+		AC73529416F4B9C600900D7D /* GitEventoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73529216F4B9C600900D7D /* GitEventoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,9 @@
 		AC73528A16F4867100900D7D /* GitAlumno.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitAlumno.m; sourceTree = "<group>"; };
 		AC73528C16F48AF300900D7D /* GitEvento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitEvento.h; sourceTree = "<group>"; };
 		AC73528D16F48AF300900D7D /* GitEvento.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitEvento.m; sourceTree = "<group>"; };
+		AC73529016F4B9C600900D7D /* GitEventoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitEventoViewController.h; sourceTree = "<group>"; };
+		AC73529116F4B9C600900D7D /* GitEventoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitEventoViewController.m; sourceTree = "<group>"; };
+		AC73529216F4B9C600900D7D /* GitEventoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GitEventoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 				AC73527B16F4774100900D7D /* GitViewController_iPhone.xib */,
 				AC73527E16F4774100900D7D /* GitViewController_iPad.xib */,
 				AC73526716F4774100900D7D /* Supporting Files */,
+				AC73529016F4B9C600900D7D /* GitEventoViewController.h */,
+				AC73529116F4B9C600900D7D /* GitEventoViewController.m */,
+				AC73529216F4B9C600900D7D /* GitEventoViewController.xib */,
 			);
 			path = cursogit;
 			sourceTree = "<group>";
@@ -190,6 +198,7 @@
 				AC73527D16F4774100900D7D /* GitViewController_iPhone.xib in Resources */,
 				AC73528016F4774100900D7D /* GitViewController_iPad.xib in Resources */,
 				AC73528716F47B9D00900D7D /* .gitignore in Resources */,
+				AC73529416F4B9C600900D7D /* GitEventoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +214,7 @@
 				AC73527A16F4774100900D7D /* GitViewController.m in Sources */,
 				AC73528B16F4867100900D7D /* GitAlumno.m in Sources */,
 				AC73528E16F48AF300900D7D /* GitEvento.m in Sources */,
+				AC73529316F4B9C600900D7D /* GitEventoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
