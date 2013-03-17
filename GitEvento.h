@@ -11,5 +11,7 @@
 @interface GitEvento : NSObject
 
 @property (nonatomic, strong) NSDate *fecha;
+@property (nonatomic, strong) NSDate *nombre;
+@property (nonatomic, strong) NSDate *lugar;
 
 @end
