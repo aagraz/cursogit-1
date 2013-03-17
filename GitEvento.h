@@ -13,5 +13,6 @@
 @property (nonatomic, strong) NSDate *fecha;
 @property (nonatomic, strong) NSDate *nombre;
 @property (nonatomic, strong) NSDate *lugar;
+@property (nonatomic, strong) NSURL  *web;
 
 @end
