@@ -14,5 +14,6 @@
 @property (nonatomic, strong) NSDate *nombre;
 @property (nonatomic, strong) NSDate *lugar;
 @property (nonatomic, strong) NSURL  *web;
+@property (nonatomic, strong) NSNumber *precio;
 
 @end
